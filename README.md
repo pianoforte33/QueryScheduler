@@ -6,7 +6,7 @@ The program is written in C++ and utilizes Qt6.
    <code> git clone https://github.com/pianoforte33/QueryScheduler.git </code>  
 2. enter the directory:  
    <code>cd QueryScheduler </code>  
-3. Create a directory for the built source code:
+3. Create a directory for the built source code:  
    <code>mkdir build-QueryScheduler</code>  
 4. run cmake on the project directory:  
    <code>cmake ..</code>  

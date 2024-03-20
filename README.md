@@ -12,4 +12,4 @@ The program is written in C++ and utilizes Qt6.
    <code>cmake ..</code>  
 5. run make:  
    <code>make </code>
-6. modify the file name.txt with your favourite text editor, and add your classmate name
+6. modify the file <code>name.txt</code> with your favourite text editor, and add your classmate name

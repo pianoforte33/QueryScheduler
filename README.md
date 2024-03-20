@@ -13,3 +13,5 @@ The program is written in C++ and utilizes Qt6.
 5. run make:  
    <code>make </code>
 6. modify the file <code>name.txt</code> with your favourite text editor, and add your classmate name
+## Screenshot  
+![Schermata_20240320_174835](https://github.com/pianoforte33/QueryScheduler/assets/79628894/93ddf6f0-afe0-4a14-8e84-d87936557b49)

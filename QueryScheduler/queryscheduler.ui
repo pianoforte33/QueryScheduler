@@ -33,7 +33,7 @@
       <item>
        <spacer name="horizontalSpacer">
         <property name="orientation">
-         <enum>Qt::Horizontal</enum>
+         <enum>Qt::Orientation::Horizontal</enum>
         </property>
         <property name="sizeHint" stdset="0">
          <size>
@@ -88,6 +88,9 @@
         <verstretch>0</verstretch>
        </sizepolicy>
       </property>
+      <property name="mouseTracking">
+       <bool>false</bool>
+      </property>
       <property name="sortingEnabled">
        <bool>true</bool>
       </property>
@@ -109,11 +112,29 @@
      <x>0</x>
      <y>0</y>
      <width>905</width>
-     <height>22</height>
+     <height>23</height>
     </rect>
    </property>
+   <widget class="QMenu" name="menufile">
+    <property name="title">
+     <string>file</string>
+    </property>
+    <addaction name="actionExport_as_CSV"/>
+   </widget>
+   <addaction name="menufile"/>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionExport_as_CSV">
+   <property name="icon">
+    <iconset theme="QIcon::ThemeIcon::DocumentSave"/>
+   </property>
+   <property name="text">
+    <string>&amp;save</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+S</string>
+   </property>
+  </action>
  </widget>
  <resources/>
  <connections/>

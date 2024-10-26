@@ -4,6 +4,8 @@
 #include <QMainWindow>
 #include <QFile>
 #include <QMessageBox>
+#include <QTextStream>
+#include <QDateTime>
 #include <algorithm>
 #include <random>
 
@@ -23,10 +25,12 @@ public:
 
 private slots:
     void pushButtonGenerate_clicked();
+    void on_actionExport_as_CSV_triggered();
 
 private:
     Ui::QueryScheduler *ui;
 
+    int counterSameName = 0; // the variable is used to count how many time we find the same file
     int nameNumber; // the variable is used generate the exact naumber of cell in the table
     QList<QString> nameList; // the vector store all the name of people in the file
 };

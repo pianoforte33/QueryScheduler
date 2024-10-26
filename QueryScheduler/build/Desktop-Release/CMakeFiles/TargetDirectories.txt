@@ -1,0 +1,9 @@
+/run/media/simone/scheda SD/qt/QueryScheduler/QueryScheduler/build/Desktop-Release/CMakeFiles/QueryScheduler.dir
+/run/media/simone/scheda SD/qt/QueryScheduler/QueryScheduler/build/Desktop-Release/CMakeFiles/edit_cache.dir
+/run/media/simone/scheda SD/qt/QueryScheduler/QueryScheduler/build/Desktop-Release/CMakeFiles/rebuild_cache.dir
+/run/media/simone/scheda SD/qt/QueryScheduler/QueryScheduler/build/Desktop-Release/CMakeFiles/list_install_components.dir
+/run/media/simone/scheda SD/qt/QueryScheduler/QueryScheduler/build/Desktop-Release/CMakeFiles/install.dir
+/run/media/simone/scheda SD/qt/QueryScheduler/QueryScheduler/build/Desktop-Release/CMakeFiles/install/local.dir
+/run/media/simone/scheda SD/qt/QueryScheduler/QueryScheduler/build/Desktop-Release/CMakeFiles/install/strip.dir
+/run/media/simone/scheda SD/qt/QueryScheduler/QueryScheduler/build/Desktop-Release/CMakeFiles/QueryScheduler_autogen_timestamp_deps.dir
+/run/media/simone/scheda SD/qt/QueryScheduler/QueryScheduler/build/Desktop-Release/CMakeFiles/QueryScheduler_autogen.dir

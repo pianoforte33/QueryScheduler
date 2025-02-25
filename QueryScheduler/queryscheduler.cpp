@@ -12,12 +12,16 @@ QueryScheduler::QueryScheduler(QWidget *parent)
     // file exeption handling
     if (!name.open(QIODevice::ReadOnly | QIODevice::Text)) {
         QMessageBox::warning(this, "Warning", "Cannot open file: " + name.errorString());
+
         return;
     }
 
     // file "name" is read line by line
     while (!name.atEnd()){
-        nameList.append(name.readLine().trimmed());
+        QString line = name.readLine().trimmed();
+        if (!line.isEmpty()) {
+            nameList.append(line);
+        }
     }
     nameNumber = nameList.size();
 
